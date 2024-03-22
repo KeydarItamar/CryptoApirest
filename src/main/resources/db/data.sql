@@ -1,0 +1,22 @@
+INSERT ignore INTO `cryptomoneda` (`id`,`ruta_imagen`, `nombre`, `max_prize`, `minim_prize`, `creador`, `descripcion`, `red`)
+VALUES
+    (1,'bitcoin.jpg', 'Bitcoin', 60000, 40000, 'Satoshi Nakamoto', 'Moneda digital líder', 'Blockchain'),
+    (2,'ethereum.jpg', 'Ethereum', 5000, 3000, 'Vitalik Buterin', 'Plataforma para contratos inteligentes', 'Blockchain'),
+    (3,'ripple.jpg', 'Ripple', 3, 2, 'Chris Larsen', 'Red de liquidación global', 'Red de pago'),
+    (4,'litecoin.jpg', 'Litecoin', 300, 100, 'Charlie Lee', 'Versión mejorada de Bitcoin', 'Blockchain'),
+    (5,'dash.jpg', 'Dash', 400, 200, 'Evan Duffield', 'Enfocado en la privacidad y velocidad', 'Blockchain'),
+    (6,'monero.jpg', 'Monero', 150, 50, 'Desconocido', 'Foco en la privacidad y fungibilidad', 'Blockchain'),
+    (7,'cardano.jpg', 'Cardano', 2, 1, 'Charles Hoskinson', 'Enfocado en la sostenibilidad y la interoperabilidad', 'Blockchain'),
+    (8,'polkadot.jpg', 'Polkadot', 50, 30, 'Dr. Gavin Wood', 'Plataforma de cadena de bloques interoperable', 'Blockchain'),
+    (9,'chainlink.jpg', 'Chainlink', 100, 80, 'Sergey Nazarov', 'Red de Oracle descentralizada', 'Blockchain'),
+    (10,'stellar.jpg', 'Stellar', 1, 0.5, 'Jed McCaleb', 'Red de transferencia de valor interconectada', 'Blockchain'),
+    (11,'dogecoin.jpg', 'Dogecoin', 0.5, 0.2, 'Billy Markus', 'Inspirado por el meme "Doge"', 'Blockchain'),
+    (12,'eos.jpg', 'EOS', 10, 5, 'Dan Larimer', 'Plataforma de contrato inteligente escalable', 'Blockchain'),
+    (13,'tezos.jpg', 'Tezos', 8, 3, 'Arthur Breitman', 'Blockchain con gobernanza autónoma', 'Blockchain'),
+    (14,'tron.jpg', 'Tron', 0.2, 0.1, 'Justin Sun', 'Plataforma de entretenimiento descentralizado', 'Blockchain'),
+    (15,'nem.jpg', 'NEM', 0.5, 0.3, 'Desconocido', 'Plataforma de contratos inteligentes', 'Blockchain'),
+    (16,'vechain.jpg', 'VeChain', 0.1, 0.05, 'Sunny Lu', 'Blockchain para la gestión de la cadena de suministro', 'Blockchain'),
+    (17,'theta.jpg', 'Theta', 20, 10, 'Mitch Liu', 'Red de entrega de video descentralizada', 'Blockchain'),
+    (18,'zilliqa.jpg', 'Zilliqa', 1, 0.5, 'Prateek Saxena', 'Blockchain escalable y segura', 'Blockchain'),
+    (19,'qtum.jpg', 'Qtum', 5, 2, 'Patrick Dai', 'Plataforma de contrato inteligente compatible con Bitcoin', 'Blockchain'),
+    (20,'icon.jpg', 'ICON', 2, 1, 'Min Kim', 'Red interconectada de blockchains', 'Blockchain');
